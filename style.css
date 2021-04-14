@@ -18,13 +18,16 @@ body{
 }
 
 .container{
-	width: 80%;
+	width: 90%;
 	margin: auto;
 }
-
+.firstP h3{
+	text-align: center;
+	color: black;
+}
 .firstP{
 	background-color: darkgray;
-	color: red;
+	color: white;
 	border: 5px red solid;
 	border-bottom-width: 15px;
 	border-left-style: dashed;
@@ -41,9 +44,18 @@ body{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	/* just do it shortcut way*/
-	padding: 15px;
+	padding: 10px;
 	/*this means 70 for top and bottom and 0 for right and left */
-	margin: 70px 0;
+	margin: 50px 0;
+}
+.secondP h3{
+	text-align: center;
+}
+.secondP{
+	background-color: lightblue;
+	border: 5px black solid;
+	padding: 10px;
+	margin: 50px 0;
 }
 
 /*This will make changes to any h3's in the formSection class*/
@@ -52,4 +64,26 @@ body{
 	font-family: Tahoma;
 	font-weight: 800;
 	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	word-spacing: normal;
+}
+
+.lists h4{
+	color: black;
+	margin: 10px;
+}
+.lists ul{
+	color: darkblue;
+}
+
+.lists{
+	background-color: gray;
+	width: 95%;
+	margin: auto;
+	padding: 5px;
+	color: orange;
+	border-radius: 30px;
+
 }
