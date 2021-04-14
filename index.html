@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<title>Manas Saini</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
@@ -16,14 +17,23 @@
 
 		<!-- Paragraph surrounded by <p> </p> 
 			the strong emphasizes it, in this case it is bold but we can changed it using css-->
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt <strong> ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud </strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
+
+		<!-- Difference between ID's and Classes
+			ID: unique, aren't going to be used anywhere else
+			Class: can reuse to have same CSS styling
+			good practice: just always use classes-->
+		<div class="container">	
+			<div class="firstP">	
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt <strong> ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud </strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
 
 		<!-- the em emphasizes it and can change in css, but in this case it is italicize-->
 		<p>
@@ -93,53 +103,54 @@
 		<!-- line break and horizontal rule-->
 		<br>
 		<hr>
-
-		<h3>Reach out to me!</h3>
-		<form>
-			<!-- div is a block element, makes things in blocks--
-				type just means what type is the field? like in code is it an int, float, string, double, in HTML, there are different types and you surround using ""-->
-			<div>
-				<label>First Name</label>
-				<input type="text" name="firstName" placeholder="Jackson">
-			</div>
-			<br>
-			<div>
-				<label>Last Name</label>
-				<input type="text" name="secondName" placeholder="Roberts">
-			</div>
-			<br>
-			<div>
-				<label>Email</label>
-				<input type="email" name="email" placeholder="jacksonroberts@mail.com">
-			</div>
-			<br>
-			<div>
-				<label>Your message</label>
-				<textarea name="message" placeholder="Why are you reaching out?"></textarea>
-			</div>
-			<br>
-			<div>
-				<label>Type of message</label>
-				<select name="type">
-					<option value="pro">Professional</option>
-					<option value="personal">Personal</option>
-				</select>
-			</div>
-			<br>
-			<div>
-				<label>Select age</label>
-				<input type="number" name="age" value="20">
-			</div>
-			<br>
-			<div>
-				<label>Select birthday</label>
-				<input type="date" name="birthday">
-			</div>
-			<br>
-			<div>
-				<input type="submit" name="sumbission" value="Submit">
-			</div>
-		</form>
+		<div class="formSection">
+			<h3>Reach out to me!</h3>
+			<form>
+				<!-- div is a block element, makes things in blocks--
+					type just means what type is the field? like in code is it an int, float, string, double, in HTML, there are different types and you surround using ""-->
+				<div>
+					<label>First Name</label>
+					<input type="text" name="firstName" placeholder="Jackson">
+				</div>
+				<br>
+				<div>
+					<label>Last Name</label>
+					<input type="text" name="secondName" placeholder="Roberts">
+				</div>
+				<br>
+				<div>
+					<label>Email</label>
+					<input type="email" name="email" placeholder="jacksonroberts@mail.com">
+				</div>
+				<br>
+				<div>
+					<label>Your message</label>
+					<textarea name="message" placeholder="Why are you reaching out?"></textarea>
+				</div>
+				<br>
+				<div>
+					<label>Type of message</label>
+					<select name="type">
+						<option value="pro">Professional</option>
+						<option value="personal">Personal</option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<label>Select age</label>
+					<input type="number" name="age" value="20">
+				</div>
+				<br>
+				<div>
+					<label>Select birthday</label>
+					<input type="date" name="birthday">
+				</div>
+				<br>
+				<div>
+					<input type="submit" name="sumbission" value="Submit">
+				</div>
+			</form>
+		</div>
 
 		<!-- Buttons-- implementations of buttons are made with JavaScript-->
 		<br>
