@@ -17,6 +17,18 @@ body{
 	line-height: 1.5em
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color:red;
+}
+/* can change color of link once visited
+a:visited{
+	color:yellow;
+}
+*/
 .container{
 	width: 90%;
 	margin: auto;
@@ -74,16 +86,23 @@ body{
 	color: black;
 	margin: 10px;
 }
+.lists li{
+	padding-bottom: 5px;
+	border-bottom: dotted 1px black;
+}
 .lists ul{
 	color: darkblue;
+	list-style: square;
+}
+.lists ol{
+	color: orange;
+	list-style: square;
 }
 
 .lists{
 	background-color: gray;
-	width: 95%;
+	width: 90%;
 	margin: auto;
 	padding: 5px;
-	color: orange;
 	border-radius: 30px;
-
 }
