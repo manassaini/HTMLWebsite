@@ -24,6 +24,7 @@ a{
 a:hover{
 	color:red;
 }
+
 /* can change color of link once visited
 a:visited{
 	color:yellow;
@@ -32,6 +33,16 @@ a:visited{
 .container{
 	width: 90%;
 	margin: auto;
+}
+.button{
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 10px;
+	padding: 10px 15px;
+}
+.button:hover{
+	color:mediumspringgreen;
 }
 .firstP h3{
 	text-align: center;
@@ -71,38 +82,78 @@ a:visited{
 }
 
 /*This will make changes to any h3's in the formSection class*/
-.formSection h3{
+
+.techSkills{
+	background-color: gray;
+	width: 100%;
+	margin: auto;
+	padding: 5px;
+	border-radius: 30px;
+}
+.interSkills{
+	background-color: blue;
+	width: 100%;
+	margin: auto;
+	padding: 5px;
+	border-radius: 30px;
+}
+.lists h4{
+	color: black;
+	margin: 10px;
+	padding-left: 10px;
+}
+.lists li{
+	padding-bottom: 5px;
+	border-bottom: dotted 1px black;
+	list-style-image: url('images/check.png');
+}
+.lists ul{
+	color: darkblue;
+}
+.lists ol{
+	color: orange;
+}
+
+.form{
+	padding: 5px;
+	margin: auto;
+}
+.formGroup{
+	padding-bottom: 1px;
+}
+
+.form h3{
+	text-align: center;
 	color: darkblue;
 	font-family: Tahoma;
 	font-weight: 800;
 	font-style: italic;
 	text-decoration: underline;
-	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	word-spacing: normal;
 }
+.form label{
+	display: block;
+}
+.form input[type="text"]{
+	padding: 8px;
+	width: 100%;
+}
+.form input[type="email"], .form textarea, .form select{
+	padding: 8px;
+	width: 100%;
+}
+.form input[type="number"]{
+	padding: 8px;
+	width: 100%;
+}
+.form input[type="date"]{
+	padding: 8px;
+	width: 100%;
+}
 
-.lists h4{
-	color: black;
-	margin: 10px;
-}
-.lists li{
-	padding-bottom: 5px;
-	border-bottom: dotted 1px black;
-}
-.lists ul{
-	color: darkblue;
-	list-style: square;
-}
-.lists ol{
-	color: orange;
-	list-style: square;
-}
 
-.lists{
-	background-color: gray;
-	width: 90%;
-	margin: auto;
-	padding: 5px;
-	border-radius: 30px;
-}
+
+
+
+

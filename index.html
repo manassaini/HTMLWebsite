@@ -48,136 +48,137 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 			</div>
-		</div>
+		
 
-		<p>
-			<a href="https://www.linkedin.com/in/manas-saini-748a35165/" target="_blank">LinkedIn </a> 
-		</p>
-		<p>
-			<a href="https://github.com/manassaini" target="_blank">GitHub </a>
-		</p>
+			<p>
+				<a href="https://www.linkedin.com/in/manas-saini-748a35165/" target="_blank">LinkedIn </a> 
+			</p>
+			<p>
+				<a href="https://github.com/manassaini" target="_blank">GitHub </a>
+			</p>
 
-		<!-- Lists-->
-		<!-- This is an unordered list, bullet points-->
-		<div class="lists">
-			<div>
-				<h4>Technical Skills</h4>
-				<ul>
-					<li>C++</li>
-					<li>Java</li>
-					<li>Python</li>
-					<li>Git and GitHub</li>
-				</ul>
+			<!-- Lists-->
+			<!-- This is an unordered list, bullet points-->
+			<div class="lists">
+				<div>
+					<h4>Technical Skills</h4>
+					<ul>
+						<li>C++</li>
+						<li>Java</li>
+						<li>Python</li>
+						<li>Git and GitHub</li>
+					</ul>
+				</div>
+				<!-- This is an ordered list, numbers-->
+				<div>
+					<h4>Interpersonal Skills</h4>
+					<ol>
+						<li>Leadership</li>
+						<li>Communication</li>
+						<li>Teamwork</li>	
+						<li>Taking Initiative</li>			
+					</ol>
+				</div>
 			</div>
-			<!-- This is an ordered list, numbers-->
-			<div>
-				<h4>Interpersonal Skills</h4>
-				<ol>
-					<li>Leadership</li>
-					<li>Communication</li>
-					<li>Teamwork</li>	
-					<li>Taking Initiative</li>			
-				</ol>
+
+			<!-- tables-->
+			<table>
+				<thead> 
+					<tr>
+						<!-- name for each column-->
+						<th>Skills</th>
+						<th>Experiences</th>
+						<th>Technical</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- each row of data surrounded by <tr> </tr> -->
+					<tr>
+						<!-- these aren't headings anymore, this is actual data underneath each heading-->
+						<td>Leadership</td>
+						<td>Product Manager for Robotics</td>
+						<td>Eagle CAD</td>
+					</tr>
+					<tr>
+						<td>Initiative</td>
+						<td>Founded Tennis Camp</td>
+						<td>No technical</td>
+					</tr>
+					<tr>
+						<td>Communication</td>
+						<td>Sales Rep</td>
+						<td>No sales rep</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<a href="skills.html">See detail about my skills</a>
+
+			<!-- line break and horizontal rule-->
+			<br>
+			<hr>
+			<div class="form">
+				<h3>Reach out to me!</h3>
+				<form>
+					<!-- div is a block element, makes things in blocks--
+						type just means what type is the field? like in code is it an int, float, string, double, in HTML, there are different types and you surround using ""-->
+					<div class="formGroup">
+						<label>First Name</label>
+						<input type="text" name="firstName" placeholder="Jackson">
+					</div>
+					<br>
+					<div class="formGroup">
+						<label>Last Name</label>
+						<input type="text" name="secondName" placeholder="Roberts">
+					</div>
+					<br>
+					<div class="formGroup">
+						<label>Email</label>
+						<input type="email" name="email" placeholder="jacksonroberts@mail.com">
+					</div>
+					<br>
+					<div class="formGroup">
+						<label>Your Message</label>
+						<textarea name="message" name="message" placeholder="Why are you reaching out?"></textarea>
+					</div>
+					<br>
+					<div class="formGroup">
+						<label>Type of message</label>
+						<select name="type">
+							<option value="pro">Professional</option>
+							<option value="personal">Personal</option>
+						</select>
+					</div>
+					<br>
+					<div class="formGroup">
+						<label>Select age</label>
+						<input type="number" name="age" value="20">
+					</div>
+					<br>
+					<div class="formGroup">
+						<label>Select birthday</label>
+						<input type="date" name="birthday">
+					</div>
+					<br>
+					<div class="formGroup">
+						<input class="button" type="submit" name="sumbission" value="Submit">
+					</div>
+				</form>
 			</div>
+
+			<!-- Buttons-- implementations of buttons are made with JavaScript-->
+			<br>
+			<button>About Me</button>
+			<button>My Hobbies</button>
+			<button>My Skills</button>
+			<br>
+
+			<a href="https://github.com/manassaini" target="_blank">
+				<img src="images/githublogo.png" alt="GitHub" width="150" height="150">
+			</a>
+			<a href="https://www.linkedin.com/in/manas-saini-748a35165/" target="_blank">
+				<img src="images/linkedinlogo.png" alt="LinkedIn" width="150" height="150">
+			</a>
 		</div>
-
-		<!-- tables-->
-		<table>
-			<thead> 
-				<tr>
-					<!-- name for each column-->
-					<th>Skills</th>
-					<th>Experiences</th>
-					<th>Technical</th>
-				</tr>
-			</thead>
-			<tbody>
-				<!-- each row of data surrounded by <tr> </tr> -->
-				<tr>
-					<!-- these aren't headings anymore, this is actual data underneath each heading-->
-					<td>Leadership</td>
-					<td>Product Manager for Robotics</td>
-					<td>Eagle CAD</td>
-				</tr>
-				<tr>
-					<td>Initiative</td>
-					<td>Founded Tennis Camp</td>
-					<td>No technical</td>
-				</tr>
-				<tr>
-					<td>Communication</td>
-					<td>Sales Rep</td>
-					<td>No sales rep</td>
-				</tr>
-			</tbody>
-		</table>
-		<br>
-		<a href="skills.html">See detail about my skills</a>
-
-		<!-- line break and horizontal rule-->
-		<br>
-		<hr>
-		<div class="formSection">
-			<h3>Reach out to me!</h3>
-			<form>
-				<!-- div is a block element, makes things in blocks--
-					type just means what type is the field? like in code is it an int, float, string, double, in HTML, there are different types and you surround using ""-->
-				<div>
-					<label>First Name</label>
-					<input type="text" name="firstName" placeholder="Jackson">
-				</div>
-				<br>
-				<div>
-					<label>Last Name</label>
-					<input type="text" name="secondName" placeholder="Roberts">
-				</div>
-				<br>
-				<div>
-					<label>Email</label>
-					<input type="email" name="email" placeholder="jacksonroberts@mail.com">
-				</div>
-				<br>
-				<div>
-					<label>Your message</label>
-					<textarea name="message" placeholder="Why are you reaching out?"></textarea>
-				</div>
-				<br>
-				<div>
-					<label>Type of message</label>
-					<select name="type">
-						<option value="pro">Professional</option>
-						<option value="personal">Personal</option>
-					</select>
-				</div>
-				<br>
-				<div>
-					<label>Select age</label>
-					<input type="number" name="age" value="20">
-				</div>
-				<br>
-				<div>
-					<label>Select birthday</label>
-					<input type="date" name="birthday">
-				</div>
-				<br>
-				<div>
-					<input type="submit" name="sumbission" value="Submit">
-				</div>
-			</form>
-		</div>
-
-		<!-- Buttons-- implementations of buttons are made with JavaScript-->
-		<br>
-		<button>About Me</button>
-		<button>My Hobbies</button>
-		<button>My Skills</button>
-		<br>
-
-		<a href="https://github.com/manassaini" target="_blank">
-			<img src="images/githublogo.png" alt="GitHub" width="150" height="150">
-		</a>
-		<a href="https://www.linkedin.com/in/manas-saini-748a35165/" target="_blank">
-			<img src="images/linkedinlogo.png" alt="LinkedIn" width="150" height="150">
-		</a>
 	</body>
 </html>
